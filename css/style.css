@@ -1,0 +1,218 @@
+/* цвет основного текста #212121 */
+/* цвет вторичный #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* акцент адрес rgba(255, 255, 255, 0.6) */
+/* bg задний фон #E5E5E5 */
+/* bg основа документа ##FFFFFF */
+/* bg вторичный #2F303A */
+/* bg акцент #F5F4FA */
+/* шрифт лого Raleway 700*/
+/* шрифт текста Roboto 900 700 500 400*/
+
+:root {
+    --accent-color: #2196f3;
+    --text-title-color: #212121;
+    --text-color: #757575;
+    --primary-white-color: #fff;
+    --dark-bg-color: #2f303a;
+    --accent-bg-color: #f5f4fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--text-title-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 00.03em;
+    }
+
+.logo {
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    font-family: Raleway, sun-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.auth-nav .link  {
+    color: var(--text-color);
+}
+/* site nav */
+
+.site-nav .link {
+    color: var(--text-title-color);
+    
+}
+
+/* style button */
+.filter-button {
+    background-color: var(--accent-bg-color);
+    font-weight: 500;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-button:focus,
+.filter-button:hover {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    
+}
+
+/* link current */
+
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+.site-nav, .auth-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 00.02em;
+}
+
+.auth-nav .link:hover, 
+.auth-nav .link:focus,
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+/* hero */
+.hero {
+    background-color: var(--dark-bg-color) ;
+    color: var(--primary-white-color);
+}
+.hero-title{
+    color: var(--primary-white-color);
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.36;
+    letter-spacing: 00.06em;
+}
+
+/* section */
+
+.section-title {
+    color: var(--text-title-color);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.16;
+    font-weight: 700;
+}
+
+/* Features */
+
+.logo-color {
+    color: var(--accent-color);
+
+}
+
+
+
+.button-hero {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border: none;
+    cursor: pointer;
+}
+
+.button-hero:focus,
+.button-hero:hover {
+    background-color: #188ce8;
+}
+
+
+
+
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+
+.logo-header a{
+    font-size: large;
+}
+
+
+
+.footer {
+    background-color: var(--dark-bg-color) ;
+}
+
+
+
+.contact-footer .link {
+     
+     
+     height: 252px;
+     color: rgba(255, 255, 255, 0.6);
+}
+
+.filter-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-title-color);
+    line-height:2 ;
+    letter-spacing: 0.06em;
+}
+
+
+  .filter-card-text {
+    font-size: 16px;
+    color: var(--text-color);
+   
+}
+
+.adress-map {
+      color: #ffffff;
+
+  }
+
+  /* наша команда секция */
+.team-section {
+    background-color: var(--accent-bg-color);
+    
+    
+}
+
+.logo-colors {
+    color: var(--primary-white-color);
+    
+}
+
+.contact-footer .link:focus,
+.contact-footer .link:hover,
+.adress-map:focus,
+.adress-map:hover {
+    color: var(--accent-color);
+}
+
