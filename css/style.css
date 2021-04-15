@@ -192,9 +192,14 @@ body {
     margin-bottom: 50px;
 }
 
+.picture {
+    display: block;
+}
+
 .item .photos {
     background-color: #fff;
     padding: 0;
+    
 }
 .section-photo {
     display: flex;
@@ -203,6 +208,7 @@ body {
 
 .section-photo .photo:not(:last-child){
     margin-right: 30px;
+    
 }
 
 
@@ -465,6 +471,7 @@ body {
     /* margin-bottom: 30px; */
     margin-bottom: 0;
     margin: 0;
+    display: block;
 }
 
 .footer {
